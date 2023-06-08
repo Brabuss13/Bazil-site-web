@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Bazil</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" /><link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet"/>
+
+    <link rel="icon" type="image/png" href="img/BazilB.png" />
+    
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/62deec0aa6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="menu" style="display: none;">
+            <div class="link-menu">
+                <ul>
+                    <li class="toggle" onclick="ouiScroll()"><a><i class="fas fa-times"></i></a></li>
+                    <h2>MENU</h2>
+                    <li class="nav-all-menu first"><a href="index.html"class="nav-index-menu">Bazil</a></li>
+                    <li class="nav-all-menu second"><a href="marques.html"class="nav-marque-menu">Marques</a></li>
+                    <li class="nav-all-menu third"><a href="montres.html"class="nav-montre-menu">Montres</a></li>
+                    <li class="nav-all-menu four"><a href="accessoires.html"class="nav-acce-menu">Accessoires</a></li>
+                    <li class="nav-all-menu fifth"><a href="notre-boutique.html"class="nav-boutique-menu">Notre boutique</a></li>
+                    <li class="nav-all-menu six"><a href="se-connecter.html"class="nav-se-conecter-menu">Se connecter</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="white">
+            <div class="container-nav">
+                <div class="nav-bar">
+                    <div class="nav-1 nav">
+                        <ul>
+                            <li class="toggle" onclick="nonScroll()"><a><i class="fas fa-bars"></i></a></li>
+                            <li class="nav-all"><a href="marques.html"class="nav-marque">Marques</a></li>
+                            <li class="nav-all"><a href="montres.html"class="nav-montre">Montres</a></li>
+                            <li class="nav-all"><a href="accessoires.html"class="nav-acce">Accessoires</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-2 nav">
+                        <ul>
+                            <li><a href="index.html" class="logo">BAZIL</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-3 nav">
+                        <ul>
+                            <li class="nav-all"><a href="notre-boutique.html"class="nav-boutique">Notre boutique</a></li>
+                            <li><a class="nav-recherche"><i class="fas fa-search"></i> Recherche</a></li>
+                            <li><a href="#"><i class="fas fa-adjust"></i></a></li>
+                            <li><a href="#"><i class="fas fa-globe"></i></a></li>
+                            <li><a href="#"><i class="fas fa-user-circle"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </header>
+
+    <main>
+        <div class="home">
+            <div class="filtre-video"></div>
+                <video  muted loop autoplay>
+                    <source src="img/montres-festina.mp4" type="video/mp4" />
+                </video>
+            <div class="home-content">
+                <h1>MONTRES</h1>
+                <div class="middle-line"></div>
+                <button class="toggle" onclick="ouiScroll()">EXPLORER LE MENU</button>
+            </div>
+        </div>
+
+        <div class="container-gene">
+            <div class="filtre-">
+                <div class="box-filtre- box1-filtre-" style="display: none;">
+                    <h1>Filtre</h1>
+                    <div class="list-button-filtre">
+                        <ul>
+                            <li>
+                                <a href="">Marques</a>
+                                <ul class="ul-marques-menu">
+                                    <li>
+                                        <a href="">rezgrzgrz</a>
+                                    </li>
+                                    <li>
+                                        <a href="">rezgrzgrz</a>
+                                    </li>
+                                    <li>
+                                        <a href="">rezgrzgrz</a>
+                                    </li>
+                                    <li>
+                                        <a href="">rezgrzgrz</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Prix</a>
+                            </li>
+                            <li>
+                                <a href="">Genre</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="annim-filtre"><span>FILTRE</span></button>
+            </div>
+            <div class="list-montres">
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-555DGS4H6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER HERITAGE</p>
+                    <h5>1 295€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-555N4H6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER HERITAGE</p>
+                    <h5>1 295€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-525S4H6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA SEASTRONG DIVER 300 HERITAGE</p>
+                    <h5>1 550€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-525LGG4V6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA SEASTRONG DIVER 300</p>
+                    <h5>1 250€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-525G4TS6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER PILOT AUTOMATIC</p>
+                    <h5>995€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-371NN4S6B.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER PILOT CHRONOGRAPH DATE</p>
+                    <h5>795€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-283LBB5AQ6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE CONNECTÉE ALPINA HOROLOGICAL SMARTWATCH ALPINERX</p>
+                    <h5>895€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-283LBO5AQ6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE CONNECTÉE ALPINA HOROLOGICAL SMARTWATCH ALPINERX</p>
+                    <h5>895€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-371NN4S6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER PILOT CHRONOGRAPH QUARTZ</p>
+                    <h5>695€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-525NS5AQ6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA ALPINER 4 AUTOMATIC</p>
+                    <h5>1 250€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-525NN4S6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER PILOT AUTOMATIC</p>
+                    <h5>895€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-525BR5AQ6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA ALPINER 4 AUTOMATIC</p>
+                    <h5>1 250€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-240B4FBS6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER PILOT</p>
+                    <h5>550€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-247LGG4TV6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA STARTIMER PILOT CHRONOGRAPH</p>
+                    <h5>795€</h5>
+                </div>
+                <div class="montres-" data-hover-montre="Voir plus" href="">
+                    <img src="img/lesMontres/AL-283LBB5AQ6.jpg" alt="">
+                    <h4>ALPINA</h4>
+                    <p>MONTRE ALPINA SEASTRONG GMT</p>
+                    <h5>695€</h5>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="link-footer">
+                <li class="footer-links"><a href="nous-contacter.html" title="nous-contacter">
+                    <p>Nous contacter</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="notre-boutique.html" title="notre-boutique">
+                    <p>Nos boutiques</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="accueil.html" title="accueil">
+                    <p>Nos services</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="cgv.html" title="cgv">
+                    <p>CGV</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="mentions-legales.html" title="mentions-legales">
+                    <p>Mentions légales</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="confidentalite.html" title="confidentalite">
+                    <p>Confidentalité</p>
+                </a></li>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

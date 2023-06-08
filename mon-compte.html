@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Bazil</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" /><link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet"/>
+
+    <link rel="icon" type="image/png" href="img/BazilB.png" />
+    
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/62deec0aa6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <main>
+        <div class="menu-connexion">
+            <div class="box-menu-connexion box-menu-connexion-avatar">
+                <div class="title-connexion">
+                    <h2>MON COMPTE</h2>
+                </div>
+
+                <div class="avatar-compte">
+                    <div class="wrapper">
+                        <div class="image">
+                            <img src="" alt="">
+                        </div>
+                        <div class="content">
+                            <div class="icon">
+                                <i class="fas fa-cloud-upload-alt"></i>
+                            </div>
+                            <div class="text">
+                                No file chosen, yet!
+                            </div>
+                        </div>
+                        <div id="cancel-btn">
+                            <i class="fas fa-times"></i>
+                        </div>
+                        <div class="file-name">
+                            File name here
+                        </div>
+                    </div>
+                    <button onclick="defaultBtnActive()" id="custom-btn">AJOUT IMAGE</button>
+                    <input id="default-btn" type="file" hidden>
+                    <button id="custom-btn">MODIFIER</button>
+                </div>
+
+                <div class="menu-connexion-2 label-1-connexion">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label>Nom</label>
+                </div>
+                <div class="menu-connexion-2 label-1-connexion">
+                    <input type="text" required>
+                    <div class="underline"></div>
+                    <label>Prenom</label>
+                </div>
+                <div class="menu-connexion-2 label-2-connexion">
+                    <form action="mon-compte.html" method="get">
+                        <input type="submit" value="Deconnexion">
+                     </form>
+                     <div class="underline underline-connexion"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

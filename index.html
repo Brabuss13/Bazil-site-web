@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Bazil</title>
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" /><link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet"/>
+
+    <link rel="icon" type="image/png" href="img/BazilB.png" />
+
+    <link rel="stylesheet" href="style/style.css" />
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/62deec0aa6.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="menu" style="display: none;">
+            <div class="link-menu">
+                <ul>
+                    <li class="toggle" onclick="ouiScroll()"><a><i class="fas fa-times"></i></a></li>
+                    <h2>MENU</h2>
+                    <li class="nav-all-menu first"><a href="index.html"class="nav-index-menu">Bazil</a></li>
+                    <li class="nav-all-menu second"><a href="marques.html"class="nav-marque-menu">Marques</a></li>
+                    <li class="nav-all-menu third"><a href="montres.html"class="nav-montre-menu">Montres</a></li>
+                    <li class="nav-all-menu four"><a href="accessoires.html"class="nav-acce-menu">Accessoires</a></li>
+                    <li class="nav-all-menu fifth"><a href="notre-boutique.html"class="nav-boutique-menu">Notre boutique</a></li>
+                    <li class="nav-all-menu six"><a href="se-connecter.html"class="nav-se-conecter-menu">Se connecter</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="white">
+            <div class="container-nav">
+                <div class="nav-bar">
+                    <div class="nav-1 nav">
+                        <ul>
+                            <li class="toggle" onclick="nonScroll()"><a><i class="fas fa-bars"></i></a></li>
+                            <li class="nav-all"><a href="marques.html"class="nav-marque">Marques</a></li>
+                            <li class="nav-all"><a href="montres.html"class="nav-montre">Montres</a></li>
+                            <li class="nav-all"><a href="accessoires.html"class="nav-acce">Accessoires</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-2 nav">
+                        <ul>
+                            <li><a href="index.html" class="logo">BAZIL</a></li>
+                        </ul>
+                    </div>
+                    <div class="nav-3 nav">
+                        <ul>
+                            <li class="nav-all"><a href="notre-boutique.html"class="nav-boutique">Notre boutique</a></li>
+                            <li><a class="nav-recherche"><i class="fas fa-search"></i> Recherche</a></li>
+                            <li><a><i class="fas fa-adjust"></i></a></li>
+                            <li><a><i class="fas fa-globe"></i></a></li>
+                            <li><a><i class="fas fa-user-circle"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+    </header>
+
+    <main>
+    <div class="home">
+        <div class="filtre-video"></div>
+            <video  muted loop autoplay>
+                <source src="img/montres-festina.mp4" type="video/mp4" />
+            </video>
+        <div class="home-content">
+            <h1>Bazil</h1>
+            <div class="middle-line"></div>
+            <button class="toggle" onclick="ouiScroll()">EXPLORER LE MENU</button>
+        </div>
+    </div>
+        
+    <div class="container-gene">
+        <div class="nos-service">
+            <div class="title-services">
+                <h2>Les services que nous proposons</h2>
+            </div>
+            <div class="grille-service">
+                <div class="grille1 grilles" data-hover="Les réparations se fond dans notre boutique avec tout nos soin et expertise">
+                    <div class="title1 title-ns">
+                        <i class="fas fa-hammer"></i>
+                        <h5>Réparation</h5>
+                    </div>
+                </div>
+                <div class="grille2 grilles" data-hover1="Si une pièce et caser ou usée, notre équipe peut commander une pièce afin de la changer">
+                    <div class="title2 title-ns">
+                        <i class="fas fa-redo"></i>
+                        <h5>Changement de pièce</h5>
+                    </div>
+                </div>
+                <div class="grille3 grilles" data-hover2="Nous pouvons apporter des modifications si votre montre et trop grande ou trop petite">
+                    <div class="title3 title-ns">
+                        <i class="fas fa-swatchbook"></i>
+                        <h5>Mise en taille</h5></div>
+                </div>
+                <div class="grille4 grilles" data-hover3="Les changements de pile se fond directement dans notre boutique">
+                    <div class="title4 title-ns">
+                        <i class="fas fa-pills"></i>
+                        <h5>Changement de pile</h5>
+                    </div>
+                </div>
+                <div class="grille5 grilles" data-hover4="Les réglages de l'heure sont parfois compliqué et nous pouvons vous aider">
+                    <div class="title5 title-ns">
+                        <i class="fas fa-clock"></i>
+                        <h5>Réglage de l'heure</h5>
+                    </div>
+                </div>
+                <div class="grille6 grilles" data-hover5="Nous vous remercions de nous avoir choisi">
+                    <div class="title6 title-ns">
+                        <i class="fas fa-smile"></i>
+                        <h5>Satisfait</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bande-noir1"></div>
+    <div class="montre-acces">
+        <a href="montres.html">
+            <div class="mc-montre mc">
+                <ul>
+                    <li><a href="montres.html">Montres</a></li>
+                </ul>
+            </div>
+        </a>
+        <a href="accessoires.html">
+            <div class="mc-acces mc">
+                <ul>
+                    <li><a href="accessoires.html">Accessoires</a></li>
+                </ul>
+            </div>
+        </a>
+    </div>
+    <div class="bande-noir2"></div>
+
+    <div class="horlog-bazil">
+        <div class="horlog-page1 horlog-page12">
+            <img src="img/09c222ce90f7_bazil.jpeg" alt="#">
+            <div class="texte-horp1 texte-horp12">
+                <h3>Horlogier Bazil</h3>
+                <p>L'horlogerie Bazil a été créer en 2001 au centre commercial cordeliers de Poitiers. <br>
+                    a était créer en 2017.</p>
+                <p>Dans notre horlogerie, vous trouverez des montres d'une variété de marques telle que : Michel Herbelin, Lotus, Casio, Pierre Lannier, Guess, Tissot... et bien d'autre. </p>
+            </div>
+        </div>
+        <div class="horlog-page2 horlog-page12">
+            <img src="img/d5d7f3a2ecdd_bazil-1.jpeg" alt="#">
+            <div class="texte-horp2 texte-horp12">
+                <h3>Notre atelier</h3>
+                <p>L'atelier d'horlogerie Bazil vous propose de nombreux services de réparation et d'entretien de vos montres.<p>
+                <p>Nos experts pourront répondre à vos besoins comme une réparation , une pièce à changer ou même un changement de pile.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="nos-marques">
+        <div class="marques-box">
+            <h3>Marques</h3>
+        </div>
+    </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="link-footer">
+                <li class="footer-links"><a href="nous-contacter.html" title="nous-contacter">
+                    <p>Nous contacter</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="notre-boutique.html" title="notre-boutique">
+                    <p>Nos boutiques</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="accueil.html" title="accueil">
+                    <p>Nos services</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="cgv.html" title="cgv">
+                    <p>CGV</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="mentions-legales.html" title="mentions-legales">
+                    <p>Mentions légales</p>
+                </a></li>
+                <li class="footer-links"><a class="footer-links" href="confidentalite.html" title="confidentalite">
+                    <p>Confidentalité</p>
+                </a></li>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.4.0/gsap.min.js"></script>
+    <script src="script/script.js"></script>
+  </body>
+</html>

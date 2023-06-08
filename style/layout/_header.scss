@@ -1,0 +1,24 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition: 0.6s;
+    z-index: 99;
+}
+header.sticky {
+    padding: 5px 30px;
+    background: #f7f7f7;
+    margin-top: -70px;
+}
+header.sticky .logo,
+header.sticky ul li a {
+    color: $black !important;
+    cursor: pointer !important;
+}
+header.sticky .nav-all > a::after {
+    background: $black;
+}
+header.sticky .menu {
+    height: 110vh;
+}
